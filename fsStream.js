@@ -15,6 +15,7 @@ fs.writeFile('output.txt', afterSearch, (err) => {
     }
     console.log('The file was saved');
 });
+
 console.log(afterSearch);
 
 if (body.indexOf(search) > 0) {
